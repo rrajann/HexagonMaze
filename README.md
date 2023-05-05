@@ -1,6 +1,6 @@
 # HexagonMaze
 
-This was a project for one of my Computer Science courses, Algorithms and Data Strucutures.
+This was a project for one of my Computer Science courses: Algorithms and Data Strucutures.
 
 ## Structure
 The main idea of the HexagonMaze is to first create a Hexagon grid composed of only hexagons. The hexagon's locations are dictated through hex coordinates, which are based on the q and r plane. Given the origin being the center of the hexagon grid, the q plane crosses from NW to SE of the origin, while the r plane crosses from W to E of the origin. Each hexagon has 6 possible neighbours: N, NW, NE, S, SW, SE. For hexagons that are on the edge of the grid, some of their neighbours with be null. Similiarly, each hexagon can also have 6 possible links, which indicates a path between the two hexagons. 
